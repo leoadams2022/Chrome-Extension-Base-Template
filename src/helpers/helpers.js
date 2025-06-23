@@ -19,8 +19,6 @@ export function jsonToExcel(
   writeFile(wb, fileName); // Save the file as XLSX
 }
 
-// ? ------- cookies --------
-
 /**
  * Sets a cookie in the browser with the specified name, value, and expiration days.
  *

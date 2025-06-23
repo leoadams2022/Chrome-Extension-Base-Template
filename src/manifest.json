@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Chrome-Extension-Base-Template",
   "description": "A base template for Chrome extensions with essential features.",
-  "homepage_url": "https://github.com/leoadams2022/chrome-extension-base-template",
+  "homepage_url": "https://github.com/leoadams2022/Chrome-Extension-Base-Template",
   "version": "1.0",
   "permissions": [
     "identity",
