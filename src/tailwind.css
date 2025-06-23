@@ -1,0 +1,43 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+  font-family: "Cairo", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Shadows+Into+Light&display=swap")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Custom minimize animation */
+@keyframes minimize {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+}
+
+/* Restore animation */
+@keyframes restore {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation only during the transition */
+.minimizing {
+  animation: minimize 0.4s forwards ease-in-out;
+}
+
+.restoring {
+  animation: restore 0.4s forwards ease-in-out;
+}

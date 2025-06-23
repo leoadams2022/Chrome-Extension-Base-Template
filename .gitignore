@@ -1,0 +1,40 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+
+# Optional: logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# npm package lock file (if you prefer not to commit it)
+package-lock.json
+yarn.lock
+
+# Webpack files
+/webpack/
+
+# Babel cache
+/.babel_cache/
+
+# Coverage directory from testing
+/coverage/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+
+# Generated files from build process
+*.map
+
+# Env files
+.env
