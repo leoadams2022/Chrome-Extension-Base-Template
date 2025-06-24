@@ -1,5 +1,5 @@
 {
-  "name": "google-maps-scraper",
+  "name": "chrome-extension-base-template",
   "version": "1.0.0",
   "main": "src/popup/popup.js",
   "scripts": {
